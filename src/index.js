@@ -1,5 +1,11 @@
 import React from "react";
 import ReactDom from "react-dom";
+import "bootstrap/dist/css/bootstrap.css";
+import Counter from "./components/counter";
 
-const element = <h1>Hello World меня зовут Манилов Тимур</h1>;
-ReactDom.render(element, document.getElementById("root"));
+ReactDom.render(
+  <React.StrictMode>
+    <Counter />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
