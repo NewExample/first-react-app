@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDom from "react-dom";
+import "./index.css";
 import "bootstrap/dist/css/bootstrap.css";
-import Counter from "./components/counter";
+import App from "./App";
 
 ReactDom.render(
   <React.StrictMode>
-    <Counter />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
